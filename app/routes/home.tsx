@@ -1,3 +1,4 @@
+import { createClient } from "@libsql/client/web";
 import type { Route } from "./+types/home";
 import { Welcome } from "../welcome/welcome";
 

@@ -6,5 +6,7 @@
 /build/
 
 # Cloudflare
+.dev.vars
+.dev.vars.json
 .mf
 .wrangler

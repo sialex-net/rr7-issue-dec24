@@ -5,6 +5,7 @@
   "scripts": {
     "build": "react-router build",
     "cf:deploy": "pnpm build && wrangler deploy",
+    "cf:typegen": "wrangler types",
     "dev": "react-router dev",
     "start": "wrangler dev",
     "typecheck": "react-router typegen && tsc"

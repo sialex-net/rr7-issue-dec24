@@ -1,4 +1,3 @@
-import "../worker-configuration.d.ts"
 import { createRequestHandler } from "react-router";
 
 declare global {
